@@ -1,0 +1,177 @@
+@font-face {
+  font-family: quranfont;
+  src: url(../font/KFGQPC\ Uthmanic\ Script\ HAFS\ Regular.otf);
+}
+@font-face {
+  font-family: droid;
+  src: url(../font/Droid-Arabic-Kufi.ttf);
+}
+@font-face {
+  font-family: bsmalah;
+  src: url(../font/Besmellah-2.ttf);
+}
+body {
+  background-image: url(../images/isl009sgold_prevue-.jpg);
+  background-position: center;
+  background-size: 583px;
+  margin: 0;
+  padding: 0;
+  min-height: 1330px;
+  position: relative;
+  overflow: hidden;
+}
+input[type="text"],
+button[id="run"] {
+  font-family: droid;
+  font-size: 17px;
+  font-weight: 500;
+}
+#it {
+  outline: 0;
+  border: 0;
+}
+.sbox {
+  width: 420px;
+  padding: 2px;
+  background-color: #fff;
+  margin: auto;
+  border: 1px solid rgb(157 117 66);
+}
+#surah {
+  font-family: quranfont;
+  font-weight: 500;
+  text-align: center;
+  line-height: 80px;
+  /* margin-top: 250px; */
+}
+#bsm h1 {
+  font-family: bsmalah;
+  font-weight: 500;
+  font-size: 200px;
+  margin: 1px;
+  user-select: none;
+}
+.container {
+  width: 88%;
+  margin: auto;
+  text-align: center;
+}
+#run {
+  font-size: 25px !important;
+  cursor: pointer;
+}
+#run:active {
+  border-width: 1px;
+}
+#vd {
+  margin-top: 32px;
+  width: 100%;
+  background-color: #fefaf7;
+  padding-top: 36px;
+  visibility: hidden;
+}
+#vd iframe {
+  width: 100%;
+  height: 541px;
+}
+#wrn {
+  font-family: "droid";
+  font-weight: 400;
+}
+#scnt {
+  background-color: #fefaf7;
+  padding: 15px;
+  background-size: 99vh;
+  border: 1px solid #5c4839;
+}
+.ql {
+  width: 151px;
+}
+.qr {
+  width: 151px;
+}
+header {
+  padding: 0;
+  margin: -20px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+.zkh {
+  width: 400px;
+}
+footer {
+  width: 100%;
+  height: 513px;
+  margin-top: -29px;
+  position: relative;
+}
+footer img {
+  width: 100vw;
+  margin: 0 auto -10px;
+}
+.sbox {
+  border-radius: 40px;
+  border: 1px grey solid;
+  width: 431px;
+  margin: auto;
+  background: #ffffff;
+  padding: 2px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.ptv {
+  min-height: 640px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.ptv div {
+  width: 259px;
+  height: 180px;
+  margin: 1px;
+  overflow: hidden;
+}
+.ptv div img {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.4s;
+}
+.ptv div img:hover {
+  transform: scale(1.1) rotate(2.5deg);
+}
+.tt {
+  color: white;
+  font-family: droid;
+  font-weight: 500;
+  font-size: 17pt;
+  z-index: 2;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 430%);
+}
+#logo {
+  width: 90px;
+  position: absolute;
+  z-index: 3;
+  top: 50%;
+  right: 50%;
+  transform: translate(53%, 130%);
+}
+#loader{
+    height: 105vh;
+    width: 100%;
+    background-color: white;
+    z-index: 6;
+    position: absolute;
+    top: 0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
