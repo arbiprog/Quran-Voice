@@ -21,4 +21,8 @@
     #loader img{
         width: 171px;
     }
+    #loader {
+        height: 105vh;
+        width: 100vw;
+    }
 }
