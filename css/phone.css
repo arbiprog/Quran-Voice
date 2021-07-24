@@ -1,0 +1,44 @@
+@media screen and (max-width:473px) {
+    .qr {
+    width: 83px;
+    }
+    .ql {
+        width: 73px;
+    }
+    .sbox{
+        margin: 33px auto;
+    }
+    .ptv div {
+        width: 389px;
+        height: 220px;
+    }
+    .sbox {
+        width: 301px;
+    }
+    
+    footer img {
+    width: 628px;
+    }
+    footer {
+        height: 323px;
+        width: 100%;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+    }
+    .zkh {
+        width: 240px;
+    }
+    #it {
+        width: 141px;
+    }
+    .tt{
+        font-size: 10pt;
+        transform: translate(-50%, 525%);
+    }
+    #logo{
+        transform: translate(53%, 150%);
+    width: 51px;
+    }
+
+}
