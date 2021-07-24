@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html dir="rtl" lang="ar">
+<head>
+ <meta charset="UTF-8">
+</head>
 <body>
 <div style="text-align:center;">
 <img width="100px"  src="./images/logo.png"/>
