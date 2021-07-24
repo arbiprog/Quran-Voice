@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://kit-pro.fontawesome.com/releases/v5.15.3/css/pro.min.css" rel="stylesheet">
+    <title>صوت القرآن | Quran voice</title>
+    <link rel="icon" href="./images/logo.png" />
+</head>
+
+<body onload="ldr()">
+    <div id="loader">
+        <img src="./images/logo.png" alt="">
+    </div>
+    <header>
+        <img class="ql" src="./images/lq.png" alt="">
+        <img class="zkh" src="./images/czkh.png" alt="">
+        <img class="qr" src="./images/rq.png" alt="">
+    </header>
+    <div class="container">
+        <div class="sbox">
+            <i id="run" onclick="msg()" class="fal fa-search" style="font-size: 48px;"></i>
+            <input type="text" name="" id="it" placeholder="أدخل اسم السورة">
+        </div>
+        <div id="vd"></div>
+        <div id="scnt">
+            <h1 id="bsm"></h1>
+            <h1 id="wrn"></h1>
+            <h1 id="surah"></h1>
+            <div class="ptv">
+                <div><a href="./mumtahana.html"><img src="./images/surahn1.png" alt=""></a></div>
+                <div><a href="#"><img src="./images/saf.png" alt=""></a></div>
+                <div><a href="#"><img src="./images/surah2.png" alt=""></a></div>
+                <div><a href="#"><img src="./images/surah3.png" alt=""></a></div>
+                <div><a href="#"><img src="./images/surah5.png" alt=""></a></div>
+                <div><a href="#"><img src="./images/surah4.png" alt=""></a></div>
+                <div><a href="#"><img src="./images/surah6.png" alt=""></a></div>
+                <div><a href="#"><img src="./images/surah7.png" alt=""></a></div>
+                <div><a href="#"><img src="./images/surah8.png" alt=""></a></div>
+                <div><a href="#"><img src="./images/surah9.png" alt=""></a></div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <img src="./images/ftr.png" alt="">
+        <h3 class="tt">صوت القرآن .. لإسماع القرآن</h3>
+        <a href="index.html"><img id='logo' src="./images/logo.png" alt=""></a>
+    </footer>
+    <script src="./js/js.js"></script>
+</body>
+
+</html>
