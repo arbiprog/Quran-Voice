@@ -1,0 +1,36 @@
+@media screen and (max-width:768px) {
+    #vd iframe {
+        width: 100%;
+        height: 401px;
+    }
+    #surah{
+        line-height: 68px;
+        font-size: 19pt;
+    }
+    #logo{
+        transform: translate(53%, 140%);
+    }
+    .tt{
+        font-size: 15pt;
+        transform: translate(-50%, 345%);
+        margin: 0;
+    }
+    .zkh {
+        width: 260px;
+    }
+    .qr {
+        width: 113px;
+        z-index: 1;
+    }
+    .ql {
+        z-index: 1;
+        width: 106px;
+    }
+    footer{
+        height: 323px;
+    }
+    .ptv div {
+        width: 219px;
+        height: 140px;
+    }
+}
