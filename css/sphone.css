@@ -24,6 +24,7 @@
     #loader {
         height: 105vh;
         width: 100vw;
+        transition: 1.5s;
     }
     #bsm h1 {
         font-family: bsmalah;
