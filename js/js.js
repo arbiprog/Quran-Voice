@@ -331,6 +331,6 @@ var bd = document.querySelector("body");
 var pre = document.getElementById("loader");
 function ldr() {
   pre.style.display = "none";
-  bd.style.overflow="scroll";
+  bd.style.overflowY="scroll";
   bd.style.overflowX="hidden";
 }
