@@ -1,0 +1,21 @@
+@media screen and (max-width:321px) {
+    .ql {
+        width: 53px;
+    }
+    .zkh {
+        width: 188px;
+    }
+    .qr {
+        width: 53px;
+    }
+    .sbox {
+        width: 271px;
+    }
+    .tt {
+        font-size: 9pt;
+        transform: translate(-50%, 605%);
+    }
+    .container {
+        width: 98%;
+    }
+}
