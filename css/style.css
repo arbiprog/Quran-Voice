@@ -110,6 +110,8 @@ footer {
 footer img {
   width: 100vw;
   margin: 0 auto -10px;
+  position: absolute;
+    bottom: 0;
 }
 .sbox {
   border-radius: 40px;
@@ -157,7 +159,8 @@ footer img {
   transform: translate(-50%, 430%);
 }
 #logo {
-  width: 90px;
+  max-width: 90px;
+  width: 7%;
   position: absolute;
   z-index: 3;
   top: 50%;
