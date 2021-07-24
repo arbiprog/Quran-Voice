@@ -25,4 +25,9 @@
         height: 105vh;
         width: 100vw;
     }
+    #bsm h1 {
+        font-family: bsmalah;
+        font-weight: 500;
+        font-size: 180px;
+    }
 }
