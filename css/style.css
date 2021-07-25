@@ -168,7 +168,7 @@ footer img {
   transform: translate(53%, 130%);
 }
 #loader{
-    height: 105vh;
+    height: 107vh;
     width: 100%;
     background-color: #fbfbfb;
     z-index: 6;
@@ -177,4 +177,7 @@ footer img {
     display:flex;
     justify-content: center;
     align-items: center;
+}
+#loader img{
+  width: 160px;
 }
