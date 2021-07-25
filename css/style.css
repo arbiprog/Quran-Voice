@@ -170,7 +170,7 @@ footer img {
 #loader{
     height: 105vh;
     width: 100%;
-    background-color: white;
+    background-color: #fbfbfb;
     z-index: 6;
     position: absolute;
     top: 0;
