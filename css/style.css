@@ -160,7 +160,7 @@ footer img {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, 430%);
+  transform: translate(-50%, 460%);
 }
 #logo {
   max-width: 90px;
@@ -169,7 +169,7 @@ footer img {
   z-index: 3;
   top: 50%;
   right: 50%;
-  transform: translate(53%, 130%);
+  transform: translate(53%, 140%);
 }
 #loader {
   height: 107vh;
