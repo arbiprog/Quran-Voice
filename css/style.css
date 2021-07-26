@@ -190,9 +190,9 @@ footer img {
 #statu {
   position: fixed;
   top: 50px;
-  left: 50px;
-  transform: translate(164%, -40%);
   z-index: 11;
+  margin: 1px auto;
+  width: 100%;
   transition:top .9s cubic-bezier(0.24, 0.01, 0.25, 1);
 }
 
