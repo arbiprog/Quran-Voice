@@ -357,10 +357,10 @@ function mumtahanah(){
 
 window.addEventListener("online", function (){
   let cv =`<div style="border-radius:10px; font-size:12pt; font-family:droid; color:white; direction:rtl; padding:6px; width:280px; background-color:#00b700; display:flex; justify-content:space-evenly; align-items:center;">
-  <span style="display:block; margin:4px;" >أنت متصل الآن بالشبكة</span><img width="30px" src="./images/offline.png" />
+  <span style="display:block; margin:4px;" >أنت متصل الآن بالشبكة</span><img width="30px" src="./images/online.png" />
 </div>`
 document.getElementById('statu').innerHTML=cv;
-document.getElementById('statu').style.transitionDelay="1s";
+document.getElementById('statu').style.transitionDelay="1.1s";
 document.getElementById('statu').style.top="-50px";
 });
 window.addEventListener("offline", function (){
