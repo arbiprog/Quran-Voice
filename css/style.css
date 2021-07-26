@@ -1,3 +1,6 @@
+
+
+
 @font-face {
   font-family: quranfont;
   src: url(../font/KFGQPC\ Uthmanic\ Script\ HAFS\ Regular.otf);
@@ -168,17 +171,29 @@ footer img {
   right: 50%;
   transform: translate(53%, 130%);
 }
-#loader{
-    height: 107vh;
-    width: 100%;
-    background-color: #fbfbfb;
-    z-index: 6;
-    position: absolute;
-    top: 0;
-    display:flex;
-    justify-content: center;
-    align-items: center;
+#loader {
+  height: 107vh;
+  width: 100%;
+  background-color: #fbfbfb;
+  z-index: 6;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-#loader img{
+#loader img {
   width: 140px;
 }
+
+
+
+#statu {
+  position: fixed;
+  top: 50px;
+  left: 50px;
+  transform: translate(150%, -40%);
+  z-index: 11;
+}
+
+
