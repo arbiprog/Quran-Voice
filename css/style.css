@@ -11,6 +11,7 @@
   src: url(../font/Besmellah-2.ttf);
 }
 body {
+  display: none;
   background-image: url(../images/isl009sgold_prevue-.jpg);
   background-position: center;
   background-size: 583px;
