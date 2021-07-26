@@ -192,8 +192,9 @@ footer img {
   position: fixed;
   top: 50px;
   left: 50px;
-  transform: translate(150%, -40%);
+  transform: translate(164%, -40%);
   z-index: 11;
+  transition:top .9s cubic-bezier(0.57, 0.01, 0.25, 1);
 }
 
 
