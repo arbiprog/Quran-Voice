@@ -352,3 +352,13 @@ function mumtahanah(){
   var bsm = document.getElementById("bsm");
   bsm.innerHTML = "<h1>6</h1>";
 }
+
+
+
+window.addEventListener("online", function (){
+  alert("Online");
+});
+window.addEventListener("offline", function (){
+  alert("Offline");
+});
+
