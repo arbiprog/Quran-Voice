@@ -352,16 +352,3 @@ function mumtahanah(){
   var bsm = document.getElementById("bsm");
   bsm.innerHTML = "<h1>6</h1>";
 }
-
-
-// function msgh(){
-//   alert("faild");
-// }
-// addEventListener version
-window.addEventListener("online", function(){
-  alert("You are now connected to the network.");
-});
-window.addEventListener("offline", function(){
-  alert("You are now connected to the network.");
-});
-
