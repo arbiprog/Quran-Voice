@@ -356,6 +356,7 @@ function mumtahanah(){
 
 
 window.addEventListener("offline", function (){
+  document.getElementById('statu').style.display="initial";
   let cv =`<div style="border-radius:10px; font-size:12pt; font-family:droid; color:white; direction:rtl; padding:6px; width:280px; background-color:orange; display:flex; justify-content:space-evenly; align-items:center;">
   <span style="display:block; margin:4px;" >تحقق من اتصالك بالشبكة</span><img width="30px" src="./images/offline.png" />
 </div>`
@@ -364,4 +365,3 @@ document.getElementById('statu').innerHTML=cv;
 window.addEventListener("online", function (){
   document.getElementById('statu').style.display="none";
 });
-
