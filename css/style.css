@@ -22,7 +22,6 @@ body {
   min-height: 1330px;
   position: relative;
   overflow: hidden;
-  display: none;
 }
 input[type="text"],
 button[id="run"] {

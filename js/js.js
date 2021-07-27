@@ -330,7 +330,6 @@ function msg() {
 var bd = document.querySelector("body");
 var pre = document.getElementById("loader");
 function ldr() {
-  bd.style.display = "initial";
   pre.style.display = "none";
   bd.style.overflowY="scroll";
   bd.style.overflowX="hidden";
