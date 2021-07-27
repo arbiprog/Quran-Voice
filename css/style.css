@@ -11,7 +11,7 @@
 }
 @font-face {
   font-family: bsmalah;
-  src: url(../font/Besmellah-2.ttf);
+  src: url(../font/baasem.ttf);
 }
 body {
   background-image: url(../images/isl009sgold_prevue-.jpg);
@@ -50,7 +50,7 @@ button[id="run"] {
 #bsm h1 {
   font-family: bsmalah;
   font-weight: 500;
-  font-size: 200px;
+  font-size: 90px;
   margin: 1px;
   user-select: none;
 }
