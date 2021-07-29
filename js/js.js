@@ -1,6 +1,8 @@
 // verification the name of the surah
 function msg() {
   var md = document.getElementById("it").value.trim();
+  //  add the name of the surah in the title
+  document.title=`صوت القرآن سورة ${md}`;
   if ((md == "فاتحة") || (md == "الفاتحة")) {
     var content = document.getElementById("wrn");
     content.innerHTML = " ";
@@ -454,6 +456,7 @@ function ldr() {
 
 // activating mumtahana(); when the user click on the img of mumtahana
 function mumtahanah(){
+  document.title="صوت القرآن سورة الممتحنة";
   var it = document.getElementById("it");
   it.setAttribute("value","الممتحنة");
 
