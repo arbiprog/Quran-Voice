@@ -28,7 +28,7 @@ button[id="run"] {
   font-family: droid;
   font-size: 17px;
   font-weight: 500;
-  flex-grow: 0.7;
+  width: 81%;
 }
 #it {
   outline: 0;
