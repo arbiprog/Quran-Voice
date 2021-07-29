@@ -241,7 +241,7 @@ function msg() {
 
     var bsm = document.getElementById("bsm");
     bsm.innerHTML = "<h1>a</h1>";
-  } else if (md == "النحل") {
+  } else if ((md == "النحل") || (md == "نحل")) {
     var content = document.getElementById("wrn");
     content.innerHTML = " ";
 
@@ -332,6 +332,9 @@ function ldr() {
 
 // activating mumtahana(); when the user click on the img of mumtahana
 function mumtahanah(){
+  var it = document.getElementById("it");
+  it.setAttribute("value","الممتحنة");
+
   var content = document.getElementById("wrn");
   content.innerHTML = " ";
 
