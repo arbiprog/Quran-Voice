@@ -342,7 +342,7 @@ function msg() {
     var bsm = document.getElementById("bsm");
     bsm.innerHTML = "<h1>a</h1>";
   } 
-  else if ((md == "المؤمنون") || (md == "مؤمنون")) {
+  else if ((md == "المؤمنون") || (md == "المومنون")) {
     var content = document.getElementById("wrn");
     content.innerHTML = " ";
 
