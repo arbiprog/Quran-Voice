@@ -1,13 +1,7 @@
-var input = document.getElementById("it");
-input.addEventListener("keyup", function (event) {
-  if (event.keyCode === 13) {
-    event.preventDefault();
-    document.getElementById("run").click();
-  }
-});
+// verification the name of the surah
 function msg() {
-  var md = document.getElementById("it").value;
-  if ((md == "فاتحة") | (md == "الفاتحة")) {
+  var md = document.getElementById("it").value.trim();
+  if ((md == "فاتحة") || (md == "الفاتحة")) {
     var content = document.getElementById("wrn");
     content.innerHTML = " ";
 
@@ -23,7 +17,7 @@ function msg() {
 
     var bsm = document.getElementById("bsm");
     bsm.innerHTML = "<h1>a</h1>";
-  } else if ((md == "البقرة") | (md == "بقرة")) {
+  } else if ((md == "البقرة") || (md == "بقرة")) {
     var content = document.getElementById("wrn");
     content.innerHTML = " ";
 
@@ -39,7 +33,7 @@ function msg() {
 
     var bsm = document.getElementById("bsm");
     bsm.innerHTML = "<h1>a</h1>";
-  } else if ((md == "ال عمران") | (md == "آل عمران")) {
+  } else if ((md == "ال عمران") || (md == "آل عمران")) {
     var content = document.getElementById("wrn");
     content.innerHTML = " ";
 
@@ -55,7 +49,7 @@ function msg() {
 
     var bsm = document.getElementById("bsm");
     bsm.innerHTML = "<h1>a</h1>";
-  } else if ((md == "النساء") | (md == "نساء")) {
+  } else if ((md == "النساء") || (md == "نساء")) {
     var content = document.getElementById("wrn");
     content.innerHTML = " ";
 
@@ -71,7 +65,7 @@ function msg() {
 
     var bsm = document.getElementById("bsm");
     bsm.innerHTML = "<h1>a</h1>";
-  } else if ((md == "مائدة") | (md == "المائدة")) {
+  } else if ((md == "مائدة") || (md == "المائدة")) {
     var content = document.getElementById("wrn");
     content.innerHTML = " ";
 
@@ -87,7 +81,7 @@ function msg() {
 
     var bsm = document.getElementById("bsm");
     bsm.innerHTML = "<h1>a</h1>";
-  } else if ((md == "الأنعام") | (md == "انعام") | (md == "أنعام")) {
+  } else if ((md == "الأنعام") || (md == "انعام") || (md == "أنعام")) {
     var content = document.getElementById("wrn");
     content.innerHTML = " ";
 
@@ -103,7 +97,7 @@ function msg() {
 
     var bsm = document.getElementById("bsm");
     bsm.innerHTML = "<h1>a</h1>";
-  } else if ((md == "الأعراف") | (md == "الاعراف") | (md == "اعراف")) {
+  } else if ((md == "الأعراف") || (md == "الاعراف") || (md == "اعراف")) {
     var content = document.getElementById("wrn");
     content.innerHTML = " ";
 
@@ -119,7 +113,7 @@ function msg() {
 
     var bsm = document.getElementById("bsm");
     bsm.innerHTML = "<h1>a</h1>";
-  } else if ((md == "الأنفال") | (md == "الانفال")) {
+  } else if ((md == "الأنفال") || (md == "الانفال")) {
     var content = document.getElementById("wrn");
     content.innerHTML = " ";
 
@@ -135,7 +129,7 @@ function msg() {
 
     var bsm = document.getElementById("bsm");
     bsm.innerHTML = "<h1>a</h1>";
-  } else if ((md == "التوبة") | (md == "توبة")) {
+  } else if ((md == "التوبة") || (md == "توبة")) {
     var content = document.getElementById("wrn");
     content.innerHTML = " ";
 
@@ -215,7 +209,7 @@ function msg() {
 
     var bsm = document.getElementById("bsm");
     bsm.innerHTML = "<h1>a</h1>";
-  } else if ((md == "إبراهيم") | (md == "ابراهيم")) {
+  } else if ((md == "إبراهيم") || (md == "ابراهيم")) {
     var content = document.getElementById("wrn");
     content.innerHTML = " ";
 
@@ -264,7 +258,7 @@ function msg() {
     var bsm = document.getElementById("bsm");
     bsm.innerHTML = "<h1>a</h1>";
   } 
-  else if ((md == "الممتحنة") | (md == "ممتحنة")) {
+  else if ((md == "الممتحنة") || (md == "ممتحنة")) {
     var content = document.getElementById("wrn");
     content.innerHTML = " ";
 
@@ -281,7 +275,7 @@ function msg() {
     var bsm = document.getElementById("bsm");
     bsm.innerHTML = "<h1>a</h1>";
   }
-   else if ((md == "الصف") | (md == "صف")) {
+   else if ((md == "الصف") || (md == "صف")) {
     var content = document.getElementById("wrn");
     content.innerHTML = " ";
 
@@ -327,6 +321,7 @@ function msg() {
   }
 }
 
+// end the loader when the page has been loaded
 var bd = document.querySelector("body");
 var pre = document.getElementById("loader");
 function ldr() {
@@ -335,6 +330,7 @@ function ldr() {
   bd.style.overflowX="hidden";
 }
 
+// activating mumtahana(); when the user click on the img of mumtahana
 function mumtahanah(){
   var content = document.getElementById("wrn");
   content.innerHTML = " ";
@@ -353,8 +349,16 @@ function mumtahanah(){
   bsm.innerHTML = "<h1>a</h1>";
 }
 
+// activating msg(); wheen the user tab enter
+var input = document.getElementById("it");
+input.addEventListener("keyup", function (event) {
+  if (event.keyCode === 13) {
+    event.preventDefault();
+    document.getElementById("run").click();
+  }
+});
 
-
+// alert when the user offline
 window.addEventListener("online", function (){
   let cv =`<div style="margin:4px auto;  border-radius:10px; font-size:12pt; font-family:droid; color:white; direction:rtl; padding:6px; width:262px; background-color:#00b700; display:flex; justify-content:space-evenly; align-items:center;">
   <span style="display:block;" >أنت متصل الآن بالشبكة</span><svg xmlns="http://www.w3.org/2000/svg" height="28" fill="currentColor" class="bi bi-wifi" viewBox="0 0 16 16">
