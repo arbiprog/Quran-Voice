@@ -12,6 +12,7 @@
     <link href="https://kit-pro.fontawesome.com/releases/v5.15.3/css/pro.min.css" rel="stylesheet">
     <title>صوت القرآن | Quran voice</title>
     <link rel="icon" href="./images/logo.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 
 <body onload="ldr()">
@@ -20,9 +21,9 @@
         <img draggable="false" src="./images/logo.gif" alt="">
     </div>
     <header>
-        <img loading="lazy" draggable="false" class="ql" src="./images/lq.png" alt="">
-        <img loading="lazy" draggable="false" class="zkh" src="./images/czkh.png" alt="">
-        <img loading="lazy" draggable="false" class="qr" src="./images/rq.png" alt="">
+        <img loading="lazy" draggable="false" class="animate__animated animate__fadeIn wow animate__delay-1s ql" src="./images/lq.png" alt="">
+        <img loading="lazy" draggable="false" class="animate__animated animate__fadeIn wow animate__delay-1s zkh" src="./images/czkh.png" alt="">
+        <img loading="lazy" draggable="false" class="animate__animated animate__fadeIn wow animate__delay-1s qr" src="./images/rq.png" alt="">
     </header>
     <div class="container">
         <div class="sbox">
@@ -35,16 +36,16 @@
             <h1 id="wrn"></h1>
             <h1 id="surah"></h1>
             <div class="ptv">
-                <div><img loading="lazy" draggable="false" onclick="mumtahanah()" src="./images/surahn1.png" alt=""></div>
-                <div><img loading="lazy" draggable="false" onclick="saf()" src="./images/saf.png" alt=""></div>
-                <div><img loading="lazy" draggable="false" onclick="yussuf()" src="./images/surah2.png" alt=""></div>
-                <div><img loading="lazy" draggable="false" onclick="mujadalah()" src="./images/surah3.png" alt=""></div>
-                <div><img loading="lazy" draggable="false" onclick="taoubah()" src="./images/surah5.png" alt=""></div>
-                <div><img loading="lazy" draggable="false" onclick="nisaa()" src="./images/surah4.png" alt=""></div>
-                <div><img loading="lazy" draggable="false" onclick="mouminoun()" src="./images/surah6.png" alt=""></div>
-                <div><img loading="lazy" draggable="false" onclick="zkhrof()" src="./images/surah7.png" alt=""></div>
-                <div><img loading="lazy" draggable="false" onclick="ahzab()" src="./images/surah8.png" alt=""></div>
-                <div><img loading="lazy" draggable="false" onclick="shora()" src="./images/surah9.png" alt=""></div>
+                <div class="animate__animated animate__fadeIn wow animate__delay-1s "><img loading="lazy" draggable="false" onclick="mumtahanah()" src="./images/surahn1.png" alt=""></div>
+                <div class="animate__animated animate__fadeIn wow animate__delay-2s "><img loading="lazy" draggable="false" onclick="saf()" src="./images/saf.png" alt=""></div>
+                <div class="animate__animated animate__fadeIn wow animate__delay-3s "><img loading="lazy" draggable="false" onclick="yussuf()" src="./images/surah2.png" alt=""></div>
+                <div class="animate__animated animate__fadeIn wow animate__delay-4s "><img loading="lazy" draggable="false" onclick="mujadalah()" src="./images/surah3.png" alt=""></div>
+                <div class="animate__animated animate__fadeIn wow animate__delay-5s "><img loading="lazy" draggable="false" onclick="taoubah()" src="./images/surah5.png" alt=""></div>
+                <div class="animate__animated animate__fadeIn wow animate__delay-6s "><img loading="lazy" draggable="false" onclick="nisaa()" src="./images/surah4.png" alt=""></div>
+                <div class="animate__animated animate__fadeIn wow animate__delay-5s "><img loading="lazy" draggable="false" onclick="mouminoun()" src="./images/surah6.png" alt=""></div>
+                <div class="animate__animated animate__fadeIn wow animate__delay-4s "><img loading="lazy" draggable="false" onclick="zkhrof()" src="./images/surah7.png" alt=""></div>
+                <div class="animate__animated animate__fadeIn wow animate__delay-3s "><img loading="lazy" draggable="false" onclick="ahzab()" src="./images/surah8.png" alt=""></div>
+                <div class="animate__animated animate__fadeIn wow animate__delay-1s "><img loading="lazy" draggable="false" onclick="shora()" src="./images/surah9.png" alt=""></div>
             </div>
         </div>
     </div>
@@ -54,6 +55,8 @@
         <a href="./index.html"><img loading="lazy" draggable="false" id='logo' src="./images/logo.png" alt=""></a>
     </footer>
     <script src="./js/js.js"></script>
+    <script src="./js/wow.js"></script>
+    <script>new WOW().init();</script>
 </body>
 
 </html>
