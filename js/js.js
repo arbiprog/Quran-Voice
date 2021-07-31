@@ -11,7 +11,7 @@ function msg() {
     video.style.visibility = "visible";
     vd.innerHTML = " ";
     vd.innerHTML =
-      '<iframe width="560" height="315" src="https://www.youtube.com/embed/sjS3i3ba7qc?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/sjS3i3ba7qc?autoplay=1?start=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
 
     var content = document.getElementById("surah");
     content.innerText =
@@ -27,7 +27,7 @@ function msg() {
     video.style.visibility = "visible";
     vd.innerHTML = " ";
     vd.innerHTML =
-      '<iframe width="560" height="315" src="https://www.youtube.com/embed/5NCi3duFv7I?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/5NCi3duFv7I?autoplay=1?start=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
 
     var content = document.getElementById("surah");
     content.innerText =
@@ -43,7 +43,7 @@ function msg() {
     video.style.visibility = "visible";
     vd.innerHTML = " ";
     vd.innerHTML =
-      '<iframe width="560" height="315" src="https://www.youtube.com/embed/NySOB5OKHzU?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/NySOB5OKHzU?autoplay=1?start=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
 
     var content = document.getElementById("surah");
     content.innerText =
@@ -59,7 +59,7 @@ function msg() {
     video.style.visibility = "visible";
     vd.innerHTML = " ";
     vd.innerHTML =
-      '<iframe width="560" height="315" src="https://www.youtube.com/embed/V4SfZYOZVJ4?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/V4SfZYOZVJ4?autoplay=1?start=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
 
     var content = document.getElementById("surah");
     content.innerText =
@@ -75,7 +75,7 @@ function msg() {
     video.style.visibility = "visible";
     vd.innerHTML = " ";
     vd.innerHTML =
-      '<iframe width="560" height="315" src="https://www.youtube.com/embed/6MxBUJ3bMDc?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/6MxBUJ3bMDc?autoplay=1?start=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
 
     var content = document.getElementById("surah");
     content.innerText =
@@ -91,7 +91,7 @@ function msg() {
     video.style.visibility = "visible";
     vd.innerHTML = " ";
     vd.innerHTML =
-      '<iframe width="560" height="315" src="https://www.youtube.com/embed/zu7IYFrIrmM?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/zu7IYFrIrmM?autoplay=1?start=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
 
     var content = document.getElementById("surah");
     content.innerText =
@@ -107,7 +107,7 @@ function msg() {
     video.style.visibility = "visible";
     vd.innerHTML = " ";
     vd.innerHTML =
-      '<iframe width="560" height="315" src="https://www.youtube.com/embed/BS7xKZbvRIQ?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/BS7xKZbvRIQ?autoplay=1?start=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
 
     var content = document.getElementById("surah");
     content.innerText =
@@ -123,7 +123,7 @@ function msg() {
     video.style.visibility = "visible";
     vd.innerHTML = " ";
     vd.innerHTML =
-      '<iframe width="560" height="315" src="https://www.youtube.com/embed/fLC7onu64jw?autoplay=1 title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/fLC7onu64jw?autoplay=1?start=0 title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
 
     var content = document.getElementById("surah");
     content.innerText =
@@ -139,7 +139,7 @@ function msg() {
     video.style.visibility = "visible";
     vd.innerHTML = " ";
     vd.innerHTML =
-      '<iframe width="560" height="315" src="https://www.youtube.com/embed/RUHie91zh0E?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/RUHie91zh0E?autoplay=1?start=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
 
     var content = document.getElementById("surah");
     content.innerText =
@@ -155,7 +155,7 @@ function msg() {
     video.style.visibility = "visible";
     vd.innerHTML = " ";
     vd.innerHTML =
-      '<iframe width="560" height="315" src="https://www.youtube.com/embed/6Ki_Gr0yKjE?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/6Ki_Gr0yKjE?autoplay=1?start=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
 
     var content = document.getElementById("surah");
     content.innerText =
@@ -171,7 +171,7 @@ function msg() {
     video.style.visibility = "visible";
     vd.innerHTML = " ";
     vd.innerHTML =
-      '<iframe width="560" height="315" src="https://www.youtube.com/embed/-IC7yBQ7G-g?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/-IC7yBQ7G-g?autoplay=1?start=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
 
     var content = document.getElementById("surah");
     content.innerText =
@@ -187,7 +187,7 @@ function msg() {
     video.style.visibility = "visible";
     vd.innerHTML = " ";
     vd.innerHTML =
-      '<iframe width="560" height="315" src="https://www.youtube.com/embed/rABa7efiii8?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/rABa7efiii8?autoplay=1?start=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
 
     var content = document.getElementById("surah");
     content.innerText =
@@ -203,7 +203,7 @@ function msg() {
     video.style.visibility = "visible";
     vd.innerHTML = " ";
     vd.innerHTML =
-      '<iframe width="560" height="315" src="https://www.youtube.com/embed/6VhmLQM1udI?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/6VhmLQM1udI?autoplay=1?start=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
 
     var content = document.getElementById("surah");
     content.innerText =
@@ -219,7 +219,7 @@ function msg() {
     video.style.visibility = "visible";
     vd.innerHTML = " ";
     vd.innerHTML =
-      '<iframe width="560" height="315" src="https://www.youtube.com/embed/mO7gpC5gvX8?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/mO7gpC5gvX8?autoplay=1?start=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
 
     var content = document.getElementById("surah");
     content.innerText =
@@ -235,7 +235,7 @@ function msg() {
     video.style.visibility = "visible";
     vd.innerHTML = " ";
     vd.innerHTML =
-      '<iframe width="560" height="315" src="https://www.youtube.com/embed/12OdSXGEAM4?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/12OdSXGEAM4?autoplay=1?start=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
 
     var content = document.getElementById("surah");
     content.innerText =
@@ -251,7 +251,7 @@ function msg() {
     video.style.visibility = "visible";
     vd.innerHTML = " ";
     vd.innerHTML =
-      '<iframe width="560" height="315" src="https://www.youtube.com/embed/INw02_C1cPY?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/INw02_C1cPY?autoplay=1?start=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
 
     var content = document.getElementById("surah");
     content.innerText =
@@ -267,7 +267,7 @@ function msg() {
     video.style.visibility = "visible";
     vd.innerHTML = " ";
     vd.innerHTML =
-      '<iframe width="560" height="315" src="https://www.youtube.com/embed/yJNLXDxrS_c?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/yJNLXDxrS_c?autoplay=1?start=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
 
     var content = document.getElementById("surah");
     content.innerText =
@@ -282,7 +282,7 @@ function msg() {
     video.style.visibility = "visible";
     vd.innerHTML = " ";
     vd.innerHTML =
-      '<iframe width="560" height="315" src="https://www.youtube.com/embed/GYIlzLQyGPA?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/GYIlzLQyGPA?autoplay=1?start=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
 
     var content = document.getElementById("surah");
     content.innerText =
@@ -297,7 +297,7 @@ function msg() {
     video.style.visibility = "visible";
     vd.innerHTML = " ";
     vd.innerHTML =
-      '<iframe width="560" height="315" src="https://www.youtube.com/embed/9bK20N6nF60?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/9bK20N6nF60?autoplay=1?start=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
 
     var content = document.getElementById("surah");
     content.innerText =
@@ -312,7 +312,7 @@ function msg() {
     video.style.visibility = "visible";
     vd.innerHTML = " ";
     vd.innerHTML =
-      '<iframe width="560" height="315" src="https://www.youtube.com/embed/QzFE1gk5Nb0?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/QzFE1gk5Nb0?autoplay=1?start=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
 
     var content = document.getElementById("surah");
     content.innerText =
@@ -327,7 +327,7 @@ function msg() {
     video.style.visibility = "visible";
     vd.innerHTML = " ";
     vd.innerHTML =
-      '<iframe width="560" height="315" src="https://www.youtube.com/embed/95ymhEFMzUc?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/95ymhEFMzUc?autoplay=1?start=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
 
     var content = document.getElementById("surah");
     content.innerText =
@@ -342,7 +342,7 @@ function msg() {
     video.style.visibility = "visible";
     vd.innerHTML = " ";
     vd.innerHTML =
-      '<iframe width="560" height="315" src="https://www.youtube.com/embed/I-wyPHIHRPQ?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/I-wyPHIHRPQ?autoplay=1?start=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
 
     var content = document.getElementById("surah");
     content.innerText =
@@ -357,7 +357,7 @@ function msg() {
     video.style.visibility = "visible";
     vd.innerHTML = " ";
     vd.innerHTML =
-      '<iframe width="560" height="315" src="https://www.youtube.com/embed/JawLt0ed0RU?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/JawLt0ed0RU?autoplay=1?start=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
 
     var content = document.getElementById("surah");
     content.innerText =
@@ -372,7 +372,7 @@ function msg() {
     video.style.visibility = "visible";
     vd.innerHTML = " ";
     vd.innerHTML =
-      '<iframe width="560" height="315" src="https://www.youtube.com/embed/u4GtyrLIl60?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/u4GtyrLIl60?autoplay=1?start=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
 
     var content = document.getElementById("surah");
     content.innerText =
@@ -387,7 +387,7 @@ function msg() {
     video.style.visibility = "visible";
     vd.innerHTML = " ";
     vd.innerHTML =
-      '<iframe width="560" height="315" src="https://www.youtube.com/embed/XGD72wvPr5k?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/XGD72wvPr5k?autoplay=1?start=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
 
     var content = document.getElementById("surah");
     content.innerText =
@@ -402,7 +402,7 @@ function msg() {
     video.style.visibility = "visible";
     vd.innerHTML = " ";
     vd.innerHTML =
-      '<iframe width="560" height="315" src="https://www.youtube.com/embed/pgzOANJMoIw?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/pgzOANJMoIw?autoplay=1?start=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
 
     var content = document.getElementById("surah");
     content.innerText =
@@ -417,7 +417,7 @@ function msg() {
     video.style.visibility = "visible";
     vd.innerHTML = " ";
     vd.innerHTML =
-      '<iframe width="560" height="315" src="https://www.youtube.com/embed/v3YCcONnD6o?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/v3YCcONnD6o?autoplay=1?start=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
 
     var content = document.getElementById("surah");
     content.innerText =
@@ -432,7 +432,7 @@ function msg() {
     video.style.visibility = "visible";
     vd.innerHTML = " ";
     vd.innerHTML =
-      '<iframe width="560" height="315" src="https://www.youtube.com/embed/BQXexxLLliI?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/BQXexxLLliI?autoplay=1?start=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
 
     var content = document.getElementById("surah");
     content.innerText =
@@ -447,7 +447,7 @@ function msg() {
     video.style.visibility = "visible";
     vd.innerHTML = " ";
     vd.innerHTML =
-      '<iframe width="560" height="315" src="https://www.youtube.com/embed/QeI5arK2cqA?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/QeI5arK2cqA?autoplay=1?start=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
 
     var content = document.getElementById("surah");
     content.innerText =
@@ -462,7 +462,7 @@ function msg() {
     video.style.visibility = "visible";
     vd.innerHTML = " ";
     vd.innerHTML =
-      '<iframe width="560" height="315" src="https://www.youtube.com/embed/AiY8GqV7FgI?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/AiY8GqV7FgI?autoplay=1?start=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
 
     var content = document.getElementById("surah");
     content.innerText =
@@ -478,7 +478,7 @@ function msg() {
     video.style.visibility = "visible";
     vd.innerHTML = " ";
     vd.innerHTML =
-      '<iframe width="560" height="315" src="https://www.youtube.com/embed/4s5x0UpLsjg?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/4s5x0UpLsjg?autoplay=1?start=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
 
     var content = document.getElementById("surah");
     content.innerHTML =
@@ -494,7 +494,7 @@ function msg() {
     video.style.visibility = "visible";
     vd.innerHTML = " ";
     vd.innerHTML =
-      '<iframe width="560" height="315" src="https://www.youtube.com/embed/04oISTqtP_A?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/04oISTqtP_A?autoplay=1?start=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
 
     var content = document.getElementById("surah");
     content.innerText =
