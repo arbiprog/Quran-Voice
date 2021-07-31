@@ -1,6 +1,6 @@
-
-
-
+:root {
+  --animate-delay: 0.1s !important;
+}
 @font-face {
   font-family: quranfont;
   src: url(../font/KFGQPC\ Uthmanic\ Script\ HAFS\ Regular.otf);
