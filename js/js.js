@@ -517,16 +517,12 @@ function msg() {
 }
 
 // end the loader when the page has been loaded
-window.onload=function(){
-  var bd = document.querySelector("body");
+var bd = document.querySelector("body");
+var pre = document.getElementById("loader");
+function ldr() {
+  pre.style.display = "none";
+  bd.style.overflowY = "scroll";
   bd.style.overflowX = "hidden";
-  window.scrollTo({ top: 0, behavior: 'smooth' });
-  setTimeout(
-    function(){
-      bd.style.overflowY = "scroll";
-      var pre = document.getElementById("loader");
-      pre.style.display = "none";    
-   },5000);
 }
 
 // activating mumtahana(); when the user click on the img of mumtahana
