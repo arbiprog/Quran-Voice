@@ -519,10 +519,11 @@ function msg() {
 // end the loader when the page has been loaded
 window.onload=function(){
   var bd = document.querySelector("body");
-  bd.style.overflowY = "scroll";
   bd.style.overflowX = "hidden";
+  window.scrollTo({ top: 0, behavior: 'smooth' });
   setTimeout(
     function(){
+      bd.style.overflowY = "scroll";
       var pre = document.getElementById("loader");
       pre.style.display = "none";    
    },5000);
