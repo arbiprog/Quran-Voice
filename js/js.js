@@ -529,61 +529,61 @@ function ldr() {
 function mumtahanah() {
   document.title = "صوت القرآن سورة الممتحنة";
   var it = document.getElementById("it");
-  it.setAttribute("value", "الممتحنة");
+  it.value= "الممتحنة";
   msg();
 }
 function yussuf() {
   document.title = "صوت القرآن سورة يوسف";
   var it = document.getElementById("it");
-  it.setAttribute("value", "يوسف");
+  it.value= "يوسف";
   msg();
 }
 function saf() {
   document.title = "صوت القرآن سورة الصف";
   var it = document.getElementById("it");
-  it.setAttribute("value", "الصف");
+  it.value= "الصف";
   msg();
 }
 function mujadalah() {
   document.title = "صوت القرآن سورة المجادلة";
   var it = document.getElementById("it");
-  it.setAttribute("value", "المجادلة");
+  it.value= "المجادلة";
   msg();
 }
 function taoubah() {
   document.title = "صوت القرآن سورة التوبة";
   var it = document.getElementById("it");
-  it.setAttribute("value", "التوبة");
+  it.value= "التوبة";
   msg();
 }
 function nisaa() {
   document.title = "صوت القرآن سورة النساء";
   var it = document.getElementById("it");
-  it.setAttribute("value", "النساء");
+  it.value= "النساء";
   msg();
 }
 function mouminoun() {
   document.title = "صوت القرآن سورة المؤمنون";
   var it = document.getElementById("it");
-  it.setAttribute("value", "المؤمنون");
+  it.value= "المؤمنون";
   msg();
 }
 function zkhrof() {
   document.title = "صوت القرآن سورة الزخرف";
   var it = document.getElementById("it");
-  it.setAttribute("value", "الزخرف");
+  it.value= "الزخرف";
   msg();
 }
 function ahzab() {
   document.title = "صوت القرآن سورة الأحزاب";
   var it = document.getElementById("it");
-  it.setAttribute("value", "الأحزاب");
+  it.value= "الأحزاب";
   msg();
 }
 function shora() {
   document.title = "صوت القرآن سورة الشورى";
   var it = document.getElementById("it");
-  it.setAttribute("value", "الشورى");
+  it.value= "الشورى";
   msg();
 }
 
